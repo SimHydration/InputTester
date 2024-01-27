@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ConnectedDeviceManager">
+      <HintPath>..\..\DrinkSystem\InputManager\bin\Release\net8.0\ConnectedDeviceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX">
+      <HintPath>..\..\DrinkSystem\DrinkSystem\bin\Release\net7.0-windows\app.publish\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.DirectInput">
+      <HintPath>..\..\DrinkSystem\DrinkSystem\bin\Release\net7.0-windows\app.publish\SharpDX.DirectInput.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Ports">
+      <HintPath>..\..\DrinkSystem\DrinkSystem\bin\Release\net7.0-windows\app.publish\System.IO.Ports.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>..\..\DrinkSystem\DrinkSystem\bin\Release\net7.0-windows\app.publish\System.Management.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
